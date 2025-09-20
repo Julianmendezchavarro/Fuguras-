@@ -4,11 +4,11 @@ public class Cuadrado implements Figura {
     public Cuadrado(double lado) {
         this.lado = lado;
     }
-
+   @override
     public double calcularArea() {
         return lado * lado;
     }
-
+    @override
     public double calcularPerimetro() {
         return 4 * lado;
     }
